@@ -64,7 +64,7 @@ lp.Chatted:Connect(function(msg)
             data[#data+1] = user.Name
             notify('Done', 'Blacklisted '..user.Name)
 			plrs:Chat(".spam respawn "..user.Name)
-			plrs:Chat(".spam explode "..user.Name)
+			plrs:Chat(".spam blind  "..user.Name)
 			plrs:Chat(".spam "..user.Name" 9e9 ")
 			
         else
